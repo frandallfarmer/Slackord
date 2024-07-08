@@ -29,8 +29,8 @@ If you're looking for a great way to archive your Slack history, I recommend [Sl
 4. Select "Bot" from the left panel, and upload an image for your bot if desired.
 5. Select "OAuth2" from the left panel. set the bot's "SCOPES" to "bot". This opens a new menu called "BOT PERMISSIONS" below. In "BOT PERMISSIONS", set the bot's permissions to "Administrator". This allows Slackord to post to private channels, too.
 6. Copy the "GENERATED URL" link below the "BOT PERMISSIONS", and paste into a browser.
-7. Join the bot into your desired server using the link generated.
-8. Click "Reset Token", select "Yes, do it!", then click the "Copy" button to the left of "Regenerate". "Keep it secret, keep it safe."
+7. Join the bot into your desired server using the link generated. (You will need Administrator permissions on the target Discord.)
+8. Switch back to your Discord bot page and click "Reset Token", select "Yes, do it!", then click the "Copy" button to the left of "Regenerate". "Keep it secret, keep it safe."
 9. Ensure that both "PUBLIC BOT" and "REQUIRES OAUTH2 CODE GRANT" sliders are turned off.
 10. In "Privileged Gateway Intents", tick the slider to enable "MESSAGE CONTENT INTENT".
 
